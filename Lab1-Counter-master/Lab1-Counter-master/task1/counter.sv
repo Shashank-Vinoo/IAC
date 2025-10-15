@@ -11,9 +11,11 @@ alwayys_ff @(posedge clk) begin
     if(rst)begin
         count <= {width{1'b0}};
     end else if(en)begin
-        count <= count +1'b1;
+        count <= count + 1'b1;
     end
 end
+
+//ok
 
 
 

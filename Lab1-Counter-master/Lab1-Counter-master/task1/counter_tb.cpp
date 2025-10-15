@@ -1,3 +1,3 @@
 #include "Vcounter.h"
 #include "verilated.h"
-#include 
+#include "verilated_vcd_c.h"
